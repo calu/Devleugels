@@ -16,6 +16,28 @@
                 'href' => '/intakes'
             ])
             
+        @include(
+            'admin.partials.card',
+            [
+                'header' => 'mutualiteiten',
+                'icon' => 'fa-folder-open',
+                'text' => 'In dit onderdeel voer je alle bewerkingen uit op mutualiteiten (edit, delete, add)',
+                'button' => 'bewerk mutualiteiten',
+                'href' => '/mutualities'
+            ]
+        )
+
+        @include(
+            'admin.partials.card',
+            [
+                'header' => 'diensten',
+                'icon' => 'fa-folder-open',
+                'text' => 'In dit onderdeel voer je alle bewerkingen uit op diensten (edit, delete, add)',
+                'button' => 'bewerk diensten',
+                'href' => '/services'
+            ]
+        )
+            
     </div>
 </div>
 @endsection

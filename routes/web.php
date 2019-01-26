@@ -33,3 +33,14 @@ Route::get('/home', function() {
 // Intake resource
 Route::get('intakes/{id}/destroy', 'IntakeController@destroy');
 Route::resource('intakes', 'IntakeController');
+
+// Mutuality resource
+Route::get('mutualities/{id}/destroy', 'MutualityController@destroy');
+Route::resource('mutualities', 'MutualityController');
+
+// Client
+Route::get('clients/{id}/createwithid', 'ClientController@createWithId');
+Route::resource('clients', 'ClientController');
+
+// Services
+Route::resource('services', 'ServiceController');

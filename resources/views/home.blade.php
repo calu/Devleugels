@@ -1,4 +1,4 @@
-@extends('layouts.vleugelslayout.php')
+@extends('layouts.vleugelslayout')
 
 @section('content')
 <div class="container">

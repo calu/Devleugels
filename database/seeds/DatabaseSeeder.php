@@ -26,5 +26,15 @@ class DatabaseSeeder extends Seeder
           'admin' => 0
         ]);   
         
+        // mutualiteiten
+        DB::table('mutualities')->insert([
+           'naam' => 'Christelijke Mutualiteiten' 
+        ]); 
+
+        DB::table('mutualities')->insert([
+           'naam' => 'Bond Moyson' 
+        ]); 
+        
+        
     }
 }
